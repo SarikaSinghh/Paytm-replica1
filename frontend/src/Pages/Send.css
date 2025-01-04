@@ -1,0 +1,189 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2.5rem;
+  padding: 4rem;
+}
+
+.balance-box {
+  border: 2px solid #2563eb;
+  padding: 2rem; /* Increased padding for larger box */
+  border-radius: 1rem; /* Increased border radius for larger corners */
+  text-align: center;
+  margin-bottom: 2rem; /* Increased margin for spacing */
+}
+
+.balance-text {
+  font-size: 1.25rem; /* Increased font size */
+  font-weight: 600;
+  color: #2563eb;
+}
+
+.balance-value {
+  font-size: 1.75rem; /* Increased font size */
+  margin-left: 0.5rem;
+  font-weight: 700;
+  color: green; /* Changed the font color to green */
+}
+
+.title {
+  font-size: 2rem; /* Increased title font size */
+  font-weight: bold;
+  margin-bottom: 2rem; /* Increased margin for spacing */
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 30rem; /* Increased max-width for wider box */
+  padding: 1rem; /* Increased padding for more space */
+}
+
+.search-box {
+  position: relative;
+  width: 100%;
+}
+
+.search-input {
+  width: 100%;
+  padding: 1rem 3rem; /* Increased padding for a larger input box */
+  font-size: 1rem; /* Increased font size */
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem; /* Slightly increased border radius */
+}
+
+.search-btn {
+  position: absolute;
+  right: 1rem; /* Adjusted for proper alignment */
+  top: 50%;
+  transform: translateY(-50%); /* Vertically center button */
+  background-color: #2563eb;
+  color: white;
+  padding: 0.75rem 1.5rem; /* Increased padding for larger button */
+  border-radius: 0.5rem; /* Increased border radius for a larger button */
+  font-size: 1rem; /* Increased font size */
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.friends-list {
+  margin-top: 3rem; /* Increased margin for more space */
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem; /* Increased gap for better spacing */
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* Increased min width for cards */
+}
+
+.friend-card {
+  background-color: white;
+  border: 1px solid #2563eb;
+  border-radius: 1rem; /* Increased border radius */
+  padding: 1.5rem; /* Increased padding for a larger card */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.friend-name {
+  color: #1e3a8a;
+  font-size: 1.25rem; /* Increased font size */
+  font-weight: 600;
+  margin-bottom: 1rem; /* Increased margin */
+}
+
+.send-btn {
+  background-color: #2563eb;
+  color: white;
+  padding: 0.75rem 1.25rem; /* Increased padding */
+  border-radius: 0.5rem; /* Increased border radius */
+  cursor: pointer;
+}
+
+.send-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.no-results {
+  color: #6b7280;
+}
+
+.modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #1f2937;
+  border-radius: 0.75rem; /* Increased border radius */
+  padding: 2.5rem; /* Increased padding */
+  max-width: 600px; /* Increased max-width for larger modal */
+  width: 100%;
+  color: white;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-friend {
+  font-weight: bold;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+.modal-body {
+  margin: 1.5rem 0;
+}
+
+.amount-input {
+  width: 100%;
+  padding: 1rem; /* Increased padding */
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem; /* Increased border radius */
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-send-btn {
+  background-color: #2563eb;
+  color: white;
+  padding: 0.75rem 1.25rem; /* Increased padding */
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.modal-send-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.modal-cancel-btn {
+  background-color: #e5e7eb;
+  color: #374151;
+  padding: 0.75rem 1.25rem; /* Increased padding */
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.modal-cancel-btn:hover {
+  background-color: #d1d5db;
+}

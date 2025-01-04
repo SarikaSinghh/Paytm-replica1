@@ -1,0 +1,71 @@
+/* Form container styles */
+.signup-form {
+    max-width: 28rem;
+    margin: 2.5rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    background-color: white;
+  }
+  
+  /* Input group styles */
+  .input-group {
+    margin-bottom: 1.25rem;
+  }
+  
+  /* Label styles */
+  .label {
+    margin-bottom: 0.5rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #4b5563; /* gray-900 */
+  }
+  
+  /* Input field styles */
+  .input-field {
+    background-color: #f9fafb; /* gray-50 */
+    border: 1px solid #d1d5db; /* gray-300 */
+    color: #111827; /* gray-900 */
+    font-size: 1.125rem; /* text-lg */
+    border-radius: 0.5rem;
+    padding: 0.625rem 1rem;
+    width: 100%;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-color: #2563eb; /* blue-500 */
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5); /* blue-500 */
+  }
+  
+  /* Submit button styles */
+  .submit-btn {
+    background-color: #1d4ed8; /* blue-700 */
+    color: white;
+    padding: 0.75rem 1.25rem;
+    font-size: 1.125rem; /* text-lg */
+    font-weight: 500;
+    border-radius: 0.5rem;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #1e40af; /* blue-800 */
+  }
+  
+  /* Loader container */
+  .loader-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Media Queries */
+  @media (min-width: 1024px) {
+    .signup-form {
+      max-width: 32rem;
+      padding: 2rem;
+    }
+  }

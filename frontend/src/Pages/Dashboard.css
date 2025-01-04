@@ -1,0 +1,91 @@
+.dashboard-section {
+    background-color: white;
+    padding: 2rem;
+  }
+  
+  .dashboard-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .dashboard-image {
+    width: 100%;
+  }
+  
+  .dashboard-text {
+    margin-top: 1rem;
+  }
+  
+  .dashboard-balance {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1a202c;
+  }
+  
+  .balance-amount {
+    color: #2563eb;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .currency {
+    font-size: 1rem;
+  }
+  
+  .loading-indicator {
+    margin-top: 0.25rem;
+    margin-left: 2.5rem;
+  }
+  
+  .dashboard-description {
+    margin-bottom: 1.5rem;
+    color: #6b7280;
+    font-weight: 300;
+    font-size: 1.125rem;
+  }
+  
+  .send-money-btn {
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    background-color: #2563eb;
+    padding: 0.625rem 1.25rem;
+    font-weight: 500;
+    font-size: 0.875rem;
+    border-radius: 0.375rem;
+    text-decoration: none;
+  }
+  
+  .send-money-btn:hover {
+    background-color: #1d4ed8;
+  }
+  
+  .send-icon {
+    margin-left: 0.5rem;
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  
+  .profile-btn {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: #374151;
+    background-color: white;
+    border: 1px solid #d1d5db;
+    padding: 0.625rem 1.25rem;
+    font-weight: 500;
+    font-size: 0.875rem;
+    border-radius: 0.375rem;
+    text-decoration: none;
+  }
+  
+  .profile-btn:hover {
+    background-color: #1f2937;
+    color: white;
+  }
